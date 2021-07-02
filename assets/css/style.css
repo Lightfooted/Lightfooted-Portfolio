@@ -1,0 +1,78 @@
+body {
+    background-color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  header {
+    color: white;
+    text-align: center;
+  }
+
+  header a {
+    color: teal;
+  }
+
+  header nav {
+      margin: 7px 0;
+  }
+
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    list-style: none;
+  }
+
+  header nav ul li {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgb(46, 56, 143);
+  }
+
+  header nav ul li:hover {
+    border-radius: 15px;
+    background: white;
+    color: skyblue;
+    text-shadow: none;
+  }
+
+  .about-me {
+      color: white;
+      text-align: center;
+  }
+
+  .about-me img {
+      border: 5px solid rgb(92, 97, 138);
+  }
+
+  .projects1 img {
+      border: 5px solid rgb(92, 97, 138) !important;
+      width: 30% !important;
+      height: 30% !important;
+      object-fit: cover !important;
+  }
+
+  .projects2 img {
+    border: 5px solid rgb(92, 97, 138) !important;
+    width: 30% !important;
+    height: 30% !important;
+    object-fit: cover !important;
+}
+/*new experimental for showcase pj flex*/
+.pj {
+  display: flex;
+}
+
+  .pj h3 {
+    color: white;
+  }
+
+  .wsc {
+      text-align: center;
+  }
+
+  .project-name {
+      text-align: center;
+  }
