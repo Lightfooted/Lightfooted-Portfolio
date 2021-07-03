@@ -43,36 +43,36 @@ body {
       text-align: center;
   }
 
-  .about-me img {
-      border: 5px solid rgb(92, 97, 138);
+  .mepic {
+      border: 5px solid rgb(92, 97, 138) !important;
   }
 
   .projects1 img {
       border: 5px solid rgb(92, 97, 138) !important;
-      width: 30% !important;
-      height: 30% !important;
+      width: 50% !important;
+      height: 50% !important;
       object-fit: cover !important;
   }
 
   .projects2 img {
     border: 5px solid rgb(92, 97, 138) !important;
-    width: 30% !important;
-    height: 30% !important;
+    width: 50% !important;
+    height: 50% !important;
     object-fit: cover !important;
 }
 /*new experimental for showcase pj flex*/
-.pj {
-  display: flex;
-}
+  .pj {
+    display: flex;
+  }
 
   .pj h3 {
     color: white;
   }
 
   .wsc {
-      text-align: center;
+    text-align: center;
   }
 
   .project-name {
-      text-align: center;
+    text-align: center;
   }
