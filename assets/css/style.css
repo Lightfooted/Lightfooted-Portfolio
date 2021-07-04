@@ -45,6 +45,7 @@ body {
 
   .mepic {
       border: 5px solid rgb(92, 97, 138) !important;
+      border-radius: 50px;
   }
 
   .projects1 img {
@@ -59,8 +60,8 @@ body {
     width: 50% !important;
     height: 50% !important;
     object-fit: cover !important;
-}
-/*new experimental for showcase pj flex*/
+  }
+  /*new experimental for showcase pj flex*/
   .pj {
     display: flex;
   }
@@ -75,4 +76,43 @@ body {
 
   .project-name {
     text-align: center;
+  }
+
+  @media screen and (max-width: 980px) {
+    header {
+      padding-bottom: 0;
+      justify-content: center;
+    }
+  
+    header h1 {
+      width: 100%;
+      text-align: center;
+    }
+  
+    header nav ul {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: center;
+    }
+  
+    header nav ul li a {
+      font-size: 20px;
+    }
+
+  }
+
+  @media screen and (max-width: 768px) {
+    section {
+      padding: 30px 15px;
+    }
+  }
+
+  @media screen and (max-width: 575px) {
+    .contact-me {
+      text-align: center;
+    }
+  
+    .contact-me > * {
+      flex: 0 100%;
+    }
   }
