@@ -1,4 +1,4 @@
-# Lightfooted's Portfolio
+# Kimberly Collazo (Lightfooted) Portfolio
 
 ## Description
 This is a portfolio page of Kimberly Collazo, a.k.a Lightfooted. 
