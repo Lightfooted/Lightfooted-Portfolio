@@ -44,22 +44,29 @@ body {
   }
 
   .mepic {
-      border: 5px solid rgb(92, 97, 138) !important;
+      border: 5px solid rgb(92, 97, 138);
       border-radius: 50px;
   }
 
   .projects1 img {
-      border: 5px solid rgb(92, 97, 138) !important;
-      width: 50% !important;
-      height: 50% !important;
-      object-fit: cover !important;
+      border: 5px solid rgb(92, 97, 138);
+      width: 50%;
+      height: 50%;
+      object-fit: cover;
   }
 
   .projects2 img {
-    border: 5px solid rgb(92, 97, 138) !important;
-    width: 50% !important;
-    height: 50% !important;
-    object-fit: cover !important;
+    border: 5px solid rgb(92, 97, 138);
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+  }
+
+  .group-projects1 img {
+    border: 5px solid rgb(92, 97, 138);
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
   }
   /*new experimental for showcase pj flex*/
   .pj {
