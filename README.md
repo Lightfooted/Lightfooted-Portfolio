@@ -17,4 +17,4 @@ This is a portfolio page of Kimberly Collazo, a.k.a Lightfooted.
 ![Screenshot](assets/images/portfolio-screen.png)
 
 ## Development
-Constructed by Kimberly Collazo
+Constructed by Kimberly Collazo 
